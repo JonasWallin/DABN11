@@ -1,0 +1,13 @@
+name :  Lab1 
+description : This is the first lab about basic objects
+packages: [markmyassignment]
+tasks:
+  task1:
+    url: 
+      - grade/task_1.R
+  task2:
+    url: 
+      - grade/task_2.R
+mandatory:
+  url:
+    - grade/base_tests.R

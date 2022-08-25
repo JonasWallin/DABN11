@@ -1,0 +1,16 @@
+name :  Lab1 
+description : This is the first lab about basic objects
+packages: [markmyassignment]
+tasks:
+  task1:
+    url: 
+      - https://raw.githubusercontent.com/JonasWallin/DABN11/assignments/lab1/task_1.R
+  task2:
+    url: 
+      - https://raw.githubusercontent.com/JonasWallin/DABN11/assignments/lab1/task_2.R
+  task3:
+    url:
+      - https://raw.githubusercontent.com/JonasWallin/DABN11/assignments/lab1/task_3.R
+mandatory:
+  url:
+    - https://raw.githubusercontent.com/JonasWallin/DABN11/assignments/lab1/base_tests.R
