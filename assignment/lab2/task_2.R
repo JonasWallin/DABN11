@@ -1,13 +1,17 @@
-### Assignment : task1 ###
+### Assignment : task2 ###
 
-context("task 2")
+context("exericse 2")
 
 
-test_that("Marking of task 2", {
-  expect_true(exists("name.rows"), info = "name.rows() does not exist.")
-  expect_error(name.rows(1), info = "name.rows should throw error")
-  A <- matrix(0, nrow=1,ncol=1)
-  expect_equal(rownames(name.rows(A)),"1", info = "expect rownames of matrix with 1 column tbe '1' ")
-  A2 <- matrix(0, nrow=3, ncol=4)
-  expect_equal(rownames(name.rows(A2)),as.character(1:3), info = "wrong rownames ")
+test_that("Marking of exercise 2", {
+
+  data.var.true <- 8.394132
+  data.mean.true <- 20.95601
+  data.median.true <- 0
+  average.profit.true <- 385.2379
+  expect_equal(data.var, data.var.true, tolerance=1e-4, info = "data.var contains erroneous values")
+  expect_equal(data.mean, data.mean.true, tolerance=1e-4, info = "data.mean contains erroneous values")
+  expect_equal(data.median, data.median.true, tolerance=1e-4, info = "data.median contains erroneous values")
+  expect_equal(average.profit, average.profit.true, tolerance=1e-4, info = "average.profit contains erroneous values")
+
 })
