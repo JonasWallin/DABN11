@@ -3,7 +3,10 @@
 context("exercise 1")
 
 test_that("Marking of exercise 1", {
-  load('M.Rdata')
+  url_ <- "https://raw.githubusercontent.com/JonasWallin/DABN11/main/assignment/lab2/M.Rdata"
+  file.location <- url(url_)
+  load(file.location)
+  close(file.location)
   M.colnames.true <- colnames(M)
 
   #' b) store the row names in M.rownames
