@@ -28,5 +28,5 @@ test_that("Marking of exercise 1", {
   expect_equal(M.values, M.values.true, info = "M.values contains erroneous values")
   expect_equal(M.col, M.col.true, info = "M.col contains erroneous values")
   expect_equal(M.row, M.row.true, info = "M.row contains erroneous values")
-  expect_equal(M.rows, M.rows.true, info = "M.rows contains erroneous values")
+  expect_equal(c(M.rows), c(M.rows.true), info = "M.rows contains erroneous values")
 })
