@@ -6,7 +6,7 @@ context("exericse 2")
 test_that("Marking of exercise 2", {
 
   data.var.true <- 8.394132
-  data.mean.true <- 20.95601
+  data.mean.true <- 21.06965
   data.median.true <- 0
   average.profit.true <- 385.2379
   expect_equal(data.var, data.var.true, tolerance=1e-4, info = "data.var contains erroneous values")
