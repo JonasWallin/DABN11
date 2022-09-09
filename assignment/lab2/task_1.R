@@ -22,7 +22,7 @@ test_that("Marking of exercise 1", {
   M.row.true <- M[2,]
 
   #' f) store the matrix corresponding to the first and third row in M.rows
-  M.rows.true <- M[c(2,3),]
+  M.rows.true <- M[c(1,3),]
   expect_equal(M.colnames, M.colnames.true, info = "M.colnames contains erroneous values")
   expect_equal(M.rownames, M.rownames.true, info = "M.rownames contains erroneous values")
   expect_equal(M.values, M.values.true, info = "M.values contains erroneous values")
