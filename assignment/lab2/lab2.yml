@@ -8,7 +8,7 @@ tasks:
   task2:
     url: 
       - https://raw.githubusercontent.com/JonasWallin/DABN11/main/assignment/lab2/task_2.R
-  task2:
+  task3:
     url: 
       - https://raw.githubusercontent.com/JonasWallin/DABN11/main/assignment/lab2/task_3.R
 mandatory:
