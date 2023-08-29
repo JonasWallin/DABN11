@@ -1,6 +1,5 @@
 ### Assignment : task1 ###
 
-context("exercise 1")
 
 test_that("Marking of exercise 1", {
   arith1_val <- 4.84 * log10( factorial( 51))

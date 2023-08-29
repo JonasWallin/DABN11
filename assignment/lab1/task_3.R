@@ -1,4 +1,3 @@
-context("exercise 3")
 
 test_that("Marking of exercise 3", {
   set.seed(4)

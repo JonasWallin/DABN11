@@ -1,6 +1,5 @@
 ### Assignment : task1 ###
 
-context("exercise 2")
 
 test_that("Marking of exercise 2", {
   set.seed(44) # do not change set.seed ensure that we generates the same random number each time

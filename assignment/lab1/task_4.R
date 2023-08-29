@@ -1,4 +1,3 @@
-context("exercise 4")
 
 test_that("Marking of exercise 4", {
   library(tidyverse)
