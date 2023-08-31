@@ -1,6 +1,5 @@
 ### Assignment : task1 ###
 
-context("exercise 1")
 
 test_that("Marking of exercise 1", {
   url_ <- "https://raw.githubusercontent.com/JonasWallin/DABN11/main/assignment/lab2/M.Rdata"
