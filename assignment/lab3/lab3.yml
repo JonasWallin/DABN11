@@ -20,6 +20,9 @@ tasks:
   task6:
     url: 
       - https://raw.githubusercontent.com/JonasWallin/DABN11/main/assignments/lab3/task_6.R
+  task7:
+    url: 
+      - https://raw.githubusercontent.com/JonasWallin/DABN11/main/assignments/lab3/task_7.R
 mandatory:
   url:
     - https://raw.githubusercontent.com/JonasWallin/DABN11/main/assignments/lab3/base_tests.R
