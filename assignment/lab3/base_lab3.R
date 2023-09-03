@@ -1,12 +1,11 @@
 #' In this lab you will build a basic regression model in R and
 #' Here we will explore the relation between how populations in counties (US)
-#' has developed. We will use poverty rating and unemployment rate as
+#' have developed. We will use poverty rating and unemployment rate as
 #' explanatory variables.
-#' In this you are not supposed to create function but only work with
+#' In this lab you are not supposed to create function but only work with
 #' variables.
 
 #my_name <-
-
 #my_mail <-
 
 #' Task 1:
@@ -61,3 +60,16 @@ data.new <- data.frame(poverty = c(10,30), unemployment_rate = c(0.1, 30) )
 
 y.obs <- data.frame(pop.diff = c(2, -10))
 #RSS <-
+
+
+
+#' Task 7
+#' In the final task you are supposed to instead of using least squares regression
+#' use the robust (less sensitive to outlier method) quantile regression
+#' 1. install the packages quantreg
+#' 2. Fit the same model as for Least squares using the function rq and compute
+#'    beta.unemp.qr
+#' 3. generate a prediction as in task 5 but for the quantile regression
+
+#beta.rg.unemp <- 
+#y.predict.rg.new <-
