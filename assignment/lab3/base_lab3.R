@@ -52,13 +52,11 @@ data.new <- data.frame(poverty = c(10,30), unemployment_rate = c(0.1, 30) )
 
 
 #' Task 6
-#' Here we are going to compute the new residual sum of squares
-#' Use y.predict to get the residual sum of squares:
-#' RSS = \sum_{i=1}^n (y_i - \hat{y}_i)^2,
-#' Here y_i is the observations and \hat{y}_i is the prediction
-#' Now compute the RSS using your prediction in task 4 if the observations are y.obs
-
+# Assume the actual observations for pop.diff in data.new are
 y.obs <- data.frame(pop.diff = c(2, -10))
+#' Use your prediction in task 5 to get the residual sum of squares RSS:
+#' RSS = \sum_{i=1}^n (y_i - \hat{y}_i)^2,
+#' Here y_i is the observations and \hat{y}_i is the prediction,
 #RSS <-
 
 
@@ -67,7 +65,7 @@ y.obs <- data.frame(pop.diff = c(2, -10))
 #' In the final task you are supposed to instead of using least squares regression
 #' use the robust (less sensitive to outlier method) quantile regression
 #' 1. install the packages quantreg
-#' 2. Fit the same model as for Least squares using the function rq and compute
+#' 2. Fit the same model as for Least squares using the function rq and compute the coefficient for the unemployment_rate
 #'    beta.unemp.qr
 #' 3. generate a prediction as in task 5 but for the quantile regression
 
